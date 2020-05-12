@@ -7,7 +7,7 @@ import pandas as pd
 
 # Importing the dataset
 # quoting 3 = ignore "
-dataset = pd.read_csv('Restaurant_Reviews.tsv', sep = '\t')
+dataset = pd.read_csv('Restaurant_Reviews.tsv', delimiter = '\t', quoting = 3)
 
 # Cleaning the texts
 import re
