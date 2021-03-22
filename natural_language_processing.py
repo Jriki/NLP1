@@ -1,5 +1,6 @@
 # Natural Language Processing
 
+# Line4-11 = Basic setup
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
